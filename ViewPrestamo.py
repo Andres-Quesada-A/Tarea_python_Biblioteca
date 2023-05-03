@@ -12,6 +12,7 @@ class ViewPrestamo:
         print("Busqueda de un libro")
         print("1. Buscar por título")
         print("2. Buscar por autor")
+        print("3. Listar todos")
         print("0. Regresar")
 
     def Questionario(self):
