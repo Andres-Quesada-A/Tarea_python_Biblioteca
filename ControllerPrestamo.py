@@ -39,6 +39,8 @@ class ControllerPrestamo:
         elif opcion_busqueda == "2":
             autor = input("Ingrese el autor del libro: ")
             return self.BaseDatos.FiltrarLibro(3, autor)
+        elif opcion_busqueda == "3":
+            return self.BaseDatos.FiltrarLibro(5, 'none')
         return ""
     
     def MostrarLibros(self, resultados): 
