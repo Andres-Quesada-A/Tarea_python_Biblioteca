@@ -1,4 +1,4 @@
-from BaseDatos import BaseDatos
+from Model import Model
 from ControllerPrestamo import ControllerPrestamo
 from Estudiante import Estudiante
 from Libro import Libro
@@ -9,7 +9,7 @@ import random
 
 
 View = ViewPrestamo()
-DataBase = BaseDatos()
+DataBase = Model()
 
 
 

@@ -1,6 +1,5 @@
 class ViewPrestamo:
 
-    
     def MostrarMenu(self):
         print("Bienvenido a la biblioteca")
         print("1. Pedir un libro")
@@ -18,13 +17,7 @@ class ViewPrestamo:
     def Questionario(self):
         print("Busqueda de un libro")
         print("1. Solicitar libro")
-        print("0. Regresar")
-        
-    
-    def FiltrarLibros(self):
-        # Aquí iría el código para filtrar los libros
-        pass
-        
+        print("0. Regresar") 
     
     def MostrarDisponibles(self, libros_disponibles):
         print(libros_disponibles)
@@ -60,3 +53,8 @@ class ViewPrestamo:
 
     def Mensaje(self, mensaje):
         print(mensaje)
+        input('Presione cualquier tecla para aceptar')
+    
+    def SolicitarDato(self, mensaje):
+        dato = input(mensaje)
+        return dato
